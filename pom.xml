@@ -1,0 +1,29 @@
+<dependencies>
+  <!-- Apache POI core -->
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>5.2.5</version>
+  </dependency>
+
+  <!-- Apache POI for .xlsx + charts (XDDF) -->
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi-ooxml</artifactId>
+    <version>5.2.5</version>
+  </dependency>
+
+  <!-- (Optional but helps with large XLSX schemas) -->
+  <dependency>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>ooxml-schemas</artifactId>
+    <version>1.4</version>
+  </dependency>
+
+  <!-- Commons (POI transitive utils) -->
+  <dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-collections4</artifactId>
+    <version>4.4</version>
+  </dependency>
+</dependencies>
